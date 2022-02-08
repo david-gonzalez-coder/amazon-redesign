@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after{
+  box-sizing: border-box;
+}
+*::before{
+  box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a {
+  text-decoration: none;
+}
+  body{
+    background: rgb(234, 237, 237);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body::-webkit-scrollbar{
+    width: 10px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 10px;
+  }
+.cardEffect{
+    transition: .2s;
+  }
+.cardEffect:hover{
+    transition: .2s;
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 5px 8px #ccc;
+  }
+.cardEffect:active{
+    box-shadow: none;
+}
+h1, h2, h3, h4  {
+  color: #363636;
+  font-weight: 600;
+}
+h2{
+  margin: 15px 0;
+  font-size: 1.25rem;
+}
