@@ -101,8 +101,8 @@ const BottomMenu = () => {
           {!menuState && <Counter>{basket?.length}</Counter> }
           {menuState && <p>Basket</p>}
         </StyledLink>
-        {menuState && <StyledLink to="#"> <GoLocation style={style}/> <p>Send to <b>mexico</b></p></StyledLink>}
-        {menuState && <StyledLink to="#"> <VscGlobe style={style}/> <p>location</p></StyledLink>}
+        {/* {menuState && <StyledLink to="#"> <GoLocation style={style}/> <p>Send to <b>mexico</b></p></StyledLink>}
+        {menuState && <StyledLink to="#"> <VscGlobe style={style}/> <p>location</p></StyledLink>} */}
         {menuState && (<StyledLink /*onClick={handleAuthentication}*/ onClick={()=> setLoginContent('SignInForm')} to="/login" > <BiUser style={style}/> <p>sign in</p></StyledLink>)}
         {menuState && (<StyledLink onClick={()=> setLoginContent('SignUpForm')} to="/login" > <MdAccountCircle style={style}/> <p> Register</p></StyledLink>)}
 

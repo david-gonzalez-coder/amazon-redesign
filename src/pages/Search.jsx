@@ -49,7 +49,7 @@ const Search = () => {
                         <input 
                             type="text"
                             className="search_input" 
-                            placeholder="Search..."
+                            placeholder="Search... function no programed"
                             value={searchValue}
                             onChange={(e) => setSearchValue(e.target.value)}
 
